@@ -14,13 +14,17 @@
 # 运行结果：
 
 # 1.use_get_weather：<br>
-<img width="630" height="173" alt="屏幕截图 2025-07-25 003908" src="https://github.com/user-attachments/assets/d60c2a85-19ae-4452-966a-1101f34dba72" />
+<img width="630" height="173" alt="屏幕截图 2025-07-25 003908" src="https://github.com/user-attachments/assets/04170e7f-ef7c-49b6-845b-f781223930d0" />
+
 
 # 2.use_api：<br>
-<img width="991" height="737" alt="屏幕截图 2025-07-25 003953" src="https://github.com/user-attachments/assets/7738b367-9052-4bd4-aeb3-8d2ebde686a9" />
+<img width="991" height="737" alt="屏幕截图 2025-07-25 003953" src="https://github.com/user-attachments/assets/ad0c36e3-578b-42a7-a8db-537def80a794" />
+
 <br>
 <br>
 <br>
 
 
-借助搜索部分：在编写use_get_weather的过程中，不记得prompt的标准格式，导致智能体陷入循环，问了ai后才修改正确
+借助搜索部分：1.在编写use_get_weather的过程中，不记得prompt的标准格式，导致智能体陷入循环，问了ai后才修改正确<br>
+&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;2.由于本人是首次将代码上传至github，上传步骤都是网上搜的
+
