@@ -1,16 +1,14 @@
-import os
-import requests
-
 import requests
 import os
 
 
 def get_weather(city: str) -> str:
     api_key = os.getenv("WEATHERAPI_KEY")
+    api_url = os.getenv("WEATHERAPI_BASE")
     if not api_key:
         return "错误:未配置WeatherAPI密钥"
 
-    url = f"YOUR_WEATHER_BASE_URL?key={api_key}&q={city}&aqi=no"
+    url = f"{api_url}?key={api_key}&q={city}&aqi=no"
     try:
         response = requests.get(url, timeout=10)
         response.raise_for_status()  # 检查请求是否成功
